@@ -6,7 +6,6 @@
 
  body {
     overflow-x: hidden;
-    background-color: #f00;
  }
 
 /* Toggle Styles */
@@ -62,6 +61,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    background-color: #f00;
 }
 
 .sidebar-nav li {

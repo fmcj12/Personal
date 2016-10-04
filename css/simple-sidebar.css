@@ -90,7 +90,6 @@
     height: 65px;
     font-size: 18px;
     line-height: 60px;
-    background: #ffff00;
 }
 
 .sidebar-nav > .sidebar-brand a {
@@ -100,7 +99,6 @@
 
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
-    background: #ffff00;
 }
 
 @media(min-width:768px) {

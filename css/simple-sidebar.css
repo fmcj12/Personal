@@ -67,13 +67,13 @@
     text-indent: 20px;
     line-height: 40px;
 }
-
+/* Change the color from grey to red*/
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
     color: #f00;
 }
-/* Change the color from grey to red*/
+
 .sidebar-nav li a:hover {
     text-decoration: none;
     color: #fff;

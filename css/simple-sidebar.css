@@ -22,7 +22,7 @@
     padding-left: 250px;
 }
 /* We are changing the wrapper color*/
-/* Change the sidebar-wrapper background color from black to grey*/
+/* Change the sidebar-wrapper background color from black to red*/
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
@@ -36,7 +36,7 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
- background-color: #ffff00
+ background-color: #ff0000
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -69,16 +69,16 @@
     text-indent: 20px;
     line-height: 40px;
 }
-/* Change the font color from grey to red*/
+/* Change the font color from grey to white*/
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #f00;
+    color: #fff;
 }
-
+/* Change the hover font color from white to red*/
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #f00;
     background: rgba(255,255,255,0.2);
 }
 

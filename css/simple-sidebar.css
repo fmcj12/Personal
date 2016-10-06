@@ -22,6 +22,7 @@
     padding-left: 250px;
 }
 /* We are changing the wrapper color*/
+/* Change the sidebar-wrapper background color from black to grey*/
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;

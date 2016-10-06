@@ -64,10 +64,11 @@
     padding: 0;
     list-style: none;
 }
-
+/*Added 150px to top*/
 .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    top: 150px;
 }
 /* Change the font color from grey to red*/
 .sidebar-nav li a {

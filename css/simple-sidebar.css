@@ -55,10 +55,10 @@
 }
 
 /* Sidebar Styles */
-/*Added 50px to top*/
+/*Added 150px to top*/
 .sidebar-nav {
     position: absolute;
-    top: 50px;
+    top: 150px;
     width: 250px;
     margin: 0;
     padding: 0;
@@ -86,12 +86,11 @@
 .sidebar-nav li a:focus {
     text-decoration: none;
 }
-/*Added 250px to top*/
+
 .sidebar-nav > .sidebar-brand {
     height: 65px;
     font-size: 18px;
     line-height: 60px;
-    top: 250px;
 }
 
 .sidebar-nav > .sidebar-brand a {

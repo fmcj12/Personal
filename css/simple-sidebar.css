@@ -55,10 +55,10 @@
 }
 
 /* Sidebar Styles */
-/*Added 500px to top*/
+/*Added 50px to top*/
 .sidebar-nav {
     position: absolute;
-    top: 500px;
+    top: 50px;
     width: 250px;
     margin: 0;
     padding: 0;

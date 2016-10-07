@@ -100,6 +100,13 @@
  background: none;
 }
 
+/*Changed hr color to red, height is 2px and width to hr*/
+hr {
+width: 100%;
+height: 2px;
+background: #f00
+}
+
 @media(min-width:768px) {
     #wrapper {
         padding-left: 250px;

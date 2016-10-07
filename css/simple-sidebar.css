@@ -89,15 +89,16 @@
     height: 65px;
     font-size: 18px;
     line-height: 60px;
+    color:#900;
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #660000;
+    color: #999999;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
- background: #990000;
+ background: none;
 }
 
 /*Changed hr color to red, height is 2px and width to hr*/

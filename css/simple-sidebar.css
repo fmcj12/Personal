@@ -45,11 +45,13 @@
     width: 100%;
     position: absolute;
     padding: 15px;
+    background: #ff4d4d; 
 }
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
     margin-right: -250px;
+    background: #990000; 
 }
 
 /* Sidebar Styles */

@@ -21,22 +21,20 @@
 #wrapper.toggled {
     padding-left: 250px;
 }
-/* We are changing the wrapper color*/
-/* Change the sidebar-wrapper background color from black to red*/
+/*Changed the wrapper color*/
 #sidebar-wrapper {
     z-index: 1000;
-    position: fixed;
+    position: fixed; /*This will be on the left side*/
     left: 250px;
     width: 0;
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #000;
+    background: #f00;  /*Changed the sidebar-wrapper background color from black to red*/
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
- background-color: #ff0000
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -55,7 +53,7 @@
 }
 
 /* Sidebar Styles */
-/*Added back to 0 to top*/
+
 .sidebar-nav {
     position: absolute;
     top: 0;
@@ -69,16 +67,16 @@
     text-indent: 20px;
     line-height: 40px;
 }
-/* Change the font color from grey to white*/
+
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #fff;
+    color: #fff; /*Changed the font color from grey to white*/
 }
-/* Change the hover font color from white to red*/
+
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #f00;
+    color: #f00; /*Changed the hover font color from white to red*/
     background: rgba(255,255,255,0.2);
 }
 
@@ -99,6 +97,7 @@
 
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
+ background: none;
 }
 
 @media(min-width:768px) {

@@ -101,10 +101,10 @@
 }
 
 /*Changed hr color to red, height is 2px and width to hr*/
-hr {
-width: 100%;
-height: 2px;
-background: #f00
+hr{
+width:100%;
+height:2px;
+background:#f00
 }
 
 @media(min-width:768px) {

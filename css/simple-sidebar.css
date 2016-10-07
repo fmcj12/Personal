@@ -49,8 +49,7 @@
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
-    margin-right: -250px;
-    background: #990000; 
+    margin-right: -250px; 
 }
 
 /* Sidebar Styles */
@@ -93,7 +92,7 @@
 }
 
 .sidebar-nav > .sidebar-brand a {
-    color: #999999;
+    color: #660000;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {

@@ -76,7 +76,7 @@
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #f00; /*Changed the hover font color from white to red*/
+    color: #000; /*Changed the hover font color from red to black*/
     background: rgba(255,255,255,0.2);
 }
 
